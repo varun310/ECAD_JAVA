@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 256M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: ecadjavavarun
+  host: ecadjavavarun
+  disk_quota: 1024M
